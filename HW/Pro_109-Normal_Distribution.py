@@ -16,7 +16,6 @@ for c in range(len(math)):
 mean = st.mean(scores)
 median = st.median(scores)
 mode = st.mode(scores)
-
 stdev = st.stdev(scores)
 
 def range(i):
