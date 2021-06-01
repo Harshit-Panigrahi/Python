@@ -55,6 +55,8 @@ class ATM():
       time.sleep(3)
     else:
       print('Invalid input, try again')
+      time.sleep(2)
+      self.command()
 
 bank = ATM()
 bank.command()
