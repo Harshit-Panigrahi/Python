@@ -21,11 +21,11 @@ class ATM():
   def switch(self):
     if self.symbol == '₹':
       self.symbol = '$'
-      self.balance /= 74
+      self.balance = round(self.balance / 74, 2)
       print('Switched from INR(₹) to USD($).')
     elif self.symbol == '$':
       self.symbol = '₹'
-      self.balance *= 74
+      self.balance = round(self.balance * 74, 2)
       print('Switched from USD($) to INR(₹).')
 
   def check(self):
