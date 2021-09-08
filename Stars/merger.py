@@ -41,8 +41,6 @@ for star in temp2:
 
 data = data1 + data2
 
-# name, distance, mass, radius
-
 for star in data:
   mass = star[2] * 1.989e+30
   radius = star[3] * 6.957e+8
