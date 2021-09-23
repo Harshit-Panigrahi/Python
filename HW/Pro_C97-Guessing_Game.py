@@ -7,7 +7,7 @@ while again == True:
   try:
     inp = int(input("\nGuess my number! It is somewhere from 1 to 200:  "))
     if inp == num:
-      print("You WON in just", str(turns), "chances!")
+      print("You WON in just", str(turns), "turns!")
       while True:
         time.sleep(1)
         a = input("Play again? (Y/N): ")
