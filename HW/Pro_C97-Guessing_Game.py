@@ -1,6 +1,6 @@
 # NO, there isn't any sneaky virus in this code.
-# All you have to do is download the file and run it in your command line interpreter (like Powershell)
-# If you don't know what that means, it's recommended that you don't download tis file.
+# All you have to do is download the file and run it in your command line interpreter (like Powershell).
+# If you don't know what that means, it's recommended that you don't download this file.
 
 import time, random
 
