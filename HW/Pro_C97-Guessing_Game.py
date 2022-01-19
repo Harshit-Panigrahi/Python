@@ -14,7 +14,7 @@ while again == True:
       print("You WON in just", str(turns), "turns!")
       while True:
         time.sleep(1)
-        a = input("Play again? (Y/N): ")
+        a = input("\nPlay again? (Y/N): ")
         if a == "N" or a == "No" or a == "n" or a == "no":
           print("Thanks for playing!")
           again = False
@@ -37,6 +37,6 @@ while again == True:
       turns = turns + 1
       time.sleep(2)
   except:
-    print("Enter a number!")
+    print("Enter a valid number!")
     turns = turns + 1
     time.sleep(2)
